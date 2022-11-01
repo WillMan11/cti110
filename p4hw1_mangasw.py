@@ -6,4 +6,11 @@
 # ask the user for 6 grades for the 6 modules.
 # ask them to a list.
 
-grades = 
+grades = []
+
+
+for grade in range(6):
+    grade = int(input("Enter grade: "))
+    grades.append(grade)
+
+print(grades)
