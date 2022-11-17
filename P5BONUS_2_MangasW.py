@@ -2,7 +2,7 @@ import turtle
 
 def tree(branchLen,t):
     if branchLen > 5:
-        print("branch", branhcLen)
+        print("branch", branchLen)
         t.forward(branchLen)
         t.right(20)
         tree(branchLen-15,t) # FIRST
